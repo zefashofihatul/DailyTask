@@ -58,6 +58,7 @@ const dateStringify = (arr) => {
       console.log(`data tidak ada`);
   }
 
+  console.log(dateSplit);
   console.log(dateSplit.join('-'));
   console.log(arr[1].slice(0, 15));
 };
